@@ -25,6 +25,10 @@
   <property name="windowTitle">
    <string>FinanciAnalyzer</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="img.qrc">
+    <normaloff>:/icon/fa.ico</normaloff>:/icon/fa.ico</iconset>
+  </property>
   <widget class="QFrame" name="frame">
    <property name="geometry">
     <rect>

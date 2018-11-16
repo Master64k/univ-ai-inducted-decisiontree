@@ -2,7 +2,7 @@
 from PySide import QtCore, QtGui
 import sys
 
-from ui.ui_rc import  Ui_Dialog
+from ui.ui import  Ui_Dialog
 
 from decision_backend import Decision_Backend
 

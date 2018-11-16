@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'ui\main.ui'
 #
-# Created: Sat Oct 20 07:56:47 2018
+# Created: Fri Nov 16 00:50:40 2018
 #      by: pyside-uic 0.2.15 running on PySide 1.2.4
 #
 # WARNING! All changes made in this file will be lost!
@@ -15,6 +15,9 @@ class Ui_Dialog(object):
         Dialog.resize(500, 372)
         Dialog.setMinimumSize(QtCore.QSize(500, 372))
         Dialog.setMaximumSize(QtCore.QSize(500, 372))
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap(":/icon/fa.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        Dialog.setWindowIcon(icon)
         self.frame = QtGui.QFrame(Dialog)
         self.frame.setGeometry(QtCore.QRect(0, 0, 501, 111))
         self.frame.setStyleSheet("QFrame\n"
